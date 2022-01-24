@@ -1,8 +1,6 @@
 import pandas as pd
 import os
 from encodings import utf_8
-
-
 coding: utf_8
 df1 = pd.read_csv("data/raw/youtube-1.csv",
                   sep=',',
@@ -26,7 +24,5 @@ df5 = pd.read_csv("data/raw/youtube-5.csv",
 
 final_dataframe = pd.concat([df1, df2, df3, df4, df5])
 print(final_dataframe)
-
-os.remove('youtube-0.csv')
 
 final_dataframe.to_csv('youtube-0.csv', index=False)
