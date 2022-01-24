@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 from encodings import utf_8
-coding: utf_8
+utf_8
 df1 = pd.read_csv("data/raw/youtube-1.csv",
                   sep=',',
                   names=["video_id", "trending_date", "title", "channel_title", "category_id", "publish_time", "tags", "views,likes", "dislikes", "comment_count", "thumbnail_link", "comments_disabled", "ratings_disabled", "video_error_or_removed", "description"])
