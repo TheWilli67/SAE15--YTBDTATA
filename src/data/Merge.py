@@ -26,4 +26,4 @@ df5 = pd.read_csv("data/raw/youtube-5.csv",
 final_dataframe = pd.concat([df1, df2, df3, df4, df5])
 print(final_dataframe)
 
-final_dataframe.to_csv('youtube-mrg.csv', index=False)
+final_dataframe.to_csv('mrg.csv', index=False)
