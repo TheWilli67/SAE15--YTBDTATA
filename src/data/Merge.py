@@ -7,7 +7,7 @@ df2 = pd.read_csv("data/raw/youtube-2.csv")
 df3 = pd.read_csv("data/raw/youtube-3.csv")
 df4 = pd.read_csv("data/raw/youtube-4.csv")
 df5 = pd.read_csv("data/raw/youtube-5.csv")
-dataframe = pd.concat([df1])
+dataframe = pd.concat([df1, df2, df3, df4])
 print(dataframe)
 if 'mrg.csv' == True:
     delete('mrg.csv')
