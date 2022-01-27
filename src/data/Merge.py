@@ -17,8 +17,8 @@ del0 = dataframe.iloc[1]  # grab the first row for the header
 dataframe = dataframe[2:]  # take the data less the header row
 dataframe.columns = del0  # set the header row as the df header
 
-dataframe = dataframe.set_axis(["video_id", "trending_date", "title", "channel_title", "category_id", "publish_time", "tags", "views,likes", "dislikes",
-                  "comment_count", "thumbnail_link", "comments_disabled", "ratings_disabled", "video_error_or_removed"], axis=1, inplace=False)
+dataframe = dataframe.set_axis(["video_id", "trending_date", "title", "channel_title", "category_id", "publish_time", "tags", "views","likes", "dislikes",
+                  "comment_count", "comments_disabled", "ratings_disabled", "video_error_or_removed"], axis=1, inplace=False)
 dataframe.to_csv('cleaned/file_merged.csv', index=False)
 print(dataframe)
 
