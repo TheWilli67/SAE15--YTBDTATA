@@ -1,0 +1,13 @@
+0.video_id
+1.trending_date
+2.title,channel_title
+3.category_id
+4.publish_time
+5.tags
+6.views
+7.likes
+8.dislikes
+9.comment_count
+10.comments_disabled
+11.ratings_disabled
+12.video_error_or_removed
