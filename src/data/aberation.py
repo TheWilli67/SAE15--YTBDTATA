@@ -1,10 +1,10 @@
-from email import header
-from matplotlib.pyplot import axis
-from numpy import NaN, true_divide
+from inspect import currentframe, getframeinfo
 import pandas as pd
-
+import numphy as np
 dataframe = pd.read_csv('cleaned/file_merged.csv')
-dataframe = dataframe[dataframe['video_id'].notna()]
-#dataframe = dataframe[dataframe['ratings_disabled'].notna()]
-print(dataframe)
-dataframe.to_csv('cleaned/abb.csv', index=False)
+numphy = (dataframe.iloc[:, [0]])
+print(numphy)
+if len(numphy)<11 :
+    
+
+print(frameinfo)

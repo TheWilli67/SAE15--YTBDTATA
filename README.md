@@ -10,7 +10,7 @@ Les tâches demandées dans ce projet sont les suivantes.
 5. Définir les fonctions ComputeMean et ComputeMedian et calculer (*src/model/model.py*) le temps médian et moyen de likes et dislikes de toutes les vidéos.
 6. Afficher la courbe qui montre le nombre de vidéos qui ont plus de likes que de dislikes et le nombre de vidéos dans le cas inverse.
 
-***********************************************************************************************************************************
+*********************************************************************************************************
 
 # Data sets location
 This directory contains three another ones related to the data sets and called **raw**, **processed**, **cleaned**. A description of each one is given below. 
