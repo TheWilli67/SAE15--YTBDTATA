@@ -7,7 +7,7 @@ def ComputeMean():
     median=dl.median() #calcule la median 
     median=int(median)
     print("Nombre median des vues")
-    print(median) #affiche la moyenne des dislikes
+    print(median) #affiche la median des dislikes
     return ""
 print(ComputeMean())
 
