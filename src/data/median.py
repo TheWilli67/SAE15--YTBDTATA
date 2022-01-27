@@ -1,17 +1,13 @@
 from statistics import median
 import pandas as pd
-def ComputeMedian():
+def ComputeMean():
     dataframe = pd.read_csv('cleaned/file_merged.csv')
-    l=dataframe['likes']
-    l=pd.DataFrame(l)
-    median=l.median() #calcule la median des likes
-    median=int(median)
-    dl=dataframe['dislikes']
+    dl=dataframe['views']
     dl=pd.DataFrame(dl)
-    #print(l,dl) #affiche la colone des likes et des dislikes
-    median1=dl.median() #calcule la median des dislikes
-    median1=int(median1)
-    print("Median of Each Column:")
-    print("likes",median,"dislikes",median1) #affiche les medians
+    median=dl.median() #calcule la median 
+    median=int(median)
+    print("Nombre median des vues")
+    print(median) #affiche la moyenne des dislikes
     return ""
-print(ComputeMedian())
+print(ComputeMean())
+

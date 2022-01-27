@@ -10,7 +10,7 @@ def ComputeMean():
     #print(l,dl) #affiche la colone des likes et des dislikes
     means1=dl.mean() #calcule la moyenne des dislikes
     means1=int(means1)
-    print("Means of Each Column:")
+    print("Moyenne des likes et des dislikes:")
     print("likes",means,"dislikes",means1) #affiche les moyennes
     return ""
 print(ComputeMean())
