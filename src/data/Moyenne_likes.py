@@ -8,6 +8,6 @@ def ComputeMean():
     means=int(means)
     print("Means of Each Column:")
     print(means) #affiche la moyenne des likes
-    return 1234
+    return ""
 print(ComputeMean())
 
