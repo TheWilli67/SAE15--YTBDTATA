@@ -6,8 +6,14 @@ def ComputeMean():
     print(l) #affiche la colone likes
     means=l.mean() #calcule la moyenne
     means=int(means)
-    print("Means of Each Column:")
     print(means) #affiche la moyenne des likes
+    dl=dataframe['dislikes']
+    dl=pd.DataFrame(dl)
+    print(dl) #affiche la colone dislikes
+    means=dl.mean() #calcule la moyenne
+    means=int(means)
+    print("Means of Each Column:")
+    print(dl.means,l.means) #affiche la moyenne des dislikes
     return ""
 print(ComputeMean())
 
